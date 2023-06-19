@@ -4,62 +4,95 @@
     background-color: #f5f5f5;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  }
-  
-  h1 {
+}
+
+h1 {
     text-align: center;
     margin-bottom: 20px;
-  }
-  
-  form {
+    width: 50%;
+    margin: auto;
+
+}
+
+form {
     width: 400px;
     margin: auto;
     display: flex;
     flex-direction: column;
-  }
-  
-  input {
+}
+
+input {
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
-  
-  button {
+}
+
+button {
     padding: 10px;
     background-color: #4caf50;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #8c78e7;
-  }
+}
 
+button:hover {
+    background-color: #7b7a7e;
+}
 
+div {
+    padding: 30px;
+}
 
-  ul{
-    width: 50%;
+ul {
+    padding: 30px;
+    width: 70%;
     margin: auto;
-   background-color: #1488a5;
-  }
-  li img {
+    background-color: #cecfd1;
+    border-radius: 10px;
+}
+
+li img {
     height: fit-content;
- border-radius: 50%;
-  }
-  
-  p{
+    border-radius: 50%;
+}
+
+p {
     font-size: 30px;
-  }
-  li {
+}
+
+li {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-right: 10%;
     margin-bottom: 10px;
-    
-  }
-  
-  
+}
+
+h2 {
+    padding: 30px;
+    width: 70%;
+    margin: auto;
+    background-color: #c6c9cc;
+    border-radius: 10px;
+}
+
+@media (max-width: 320px) {
+    ul {
+        max-width: 280px;
+    }
+
+    li img {
+        width: 40px;
+        height: 40px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    li {
+        justify-content: space-between;
+    }
+}
