@@ -1,5 +1,5 @@
 # React Contact List App
-netlify link - https://faceprefassignment.netlify.app/
+### Netlify link - https://faceprefassignment.netlify.app/
 This is a React-based contact list app that allows users to log in, view a list of contacts, implement infinite scroll functionality, and log out. The app fetches contact data from the Random User API and displays it in a visually appealing manner.
 
 ## Features
